@@ -1,0 +1,32 @@
+{
+  "project": "VIVID PARADE",
+  "type": "offline_site_preview",
+  "version": "260625_1756_cast_variable_grid",
+  "pages": [
+    "01_top.png",
+    "02_about_story.png",
+    "03_world.png",
+    "04_cast.png",
+    "05_audition_join.png",
+    "06_contact_footer.png"
+  ],
+  "fixes": [
+    "05_AUDITION_JOIN refreshed: 会話 changed to 演技",
+    "CONTACT_FOOTER footer nav hitboxes recalibrated to actual text row",
+    "footer nav click areas enlarged to cover full label width",
+    "local smooth-scroll navigation retained",
+    "CAST page adjusted to default 6-slot roster",
+    "Active CAST card links to individual CAST profile page",
+    "Empty CAST slots use coming_soon.png",
+    "7th and later CAST cards can be added to .cast-extra-grid to extend vertically"
+  ],
+  "cast": {
+    "default_slots": 6,
+    "growth": "7人目以降は後ろへ追加し、縦方向に段が増える",
+    "active_pages": [
+      "cast/shimotsuki-vil.html"
+    ],
+    "active_card": "assets/cast/CAST_Vil.png",
+    "empty_card": "assets/cast/coming_soon.png"
+  }
+}
